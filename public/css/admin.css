@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-container {
+    background: #fff;
+    width: 95%;
+    max-width: 1100px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4e73df;
+}
+
+.admin-container p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background: #4e73df;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+table tr:hover {
+    background: #f8f9fc;
+}
+
+/* STATUS */
+.status-baru {
+    color: red;
+    font-weight: bold;
+}
+
+.status-proses {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-selesai {
+    color: green;
+    font-weight: bold;
+}
+
+/* FORM */
+select {
+    padding: 6px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #4e73df;
+    color: white;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+
+.logout {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+    
